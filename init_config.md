@@ -28,7 +28,7 @@ The output should be *3020000a*.
 
 Original article here: [link](https://raspi.tv/2012/how-to-create-a-new-user-on-raspberry-pi) and [here](https://www.raspberrypi.org/documentation/linux/usage/users.md) from raspberrypi.org
 ```
-sudo adduser username
+sudo adduser bob
 sudo adduser bob sudo
 ```
 
@@ -44,7 +44,7 @@ Original article [here](https://www.raspberrypi.org/forums/viewtopic.php?t=24413
 
 Increase the size of the swap file, original article [here](https://nebl.io/neblio-university/enabling-increasing-raspberry-pi-swap/)
 
-Temporary stop it
+Temporary stop the swap file
 ```
 sudo dphys-swapfile swapoff  
 ```
